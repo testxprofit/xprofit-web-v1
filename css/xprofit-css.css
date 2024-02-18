@@ -400,7 +400,8 @@ strong {
 }
 
 .custom-btn-group .link {
-  color: var(--white-color);
+  color: var(--dark-color);
+/*  color: var(--white-color);*/
   font-weight: var(--font-weight-medium);
 }
 
