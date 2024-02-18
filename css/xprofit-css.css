@@ -11,13 +11,16 @@ https://templatemo.com/tm-587-tiya-golf-club
   CUSTOM PROPERTIES ( VARIABLES )             
 -----------------------------------------*/
 :root {
-  --white-color:                  #ffffff;
+  --white-color:                  #121212;  /*#282618 #ffffff*/
+/*  --white-color:                  #ffffff;  */
   --primary-color:                #595CE5;  /*#81B29A #595CE5*/
   --secondary-color:              #595CE5;  /*#3D405B #595CE5*/
-  --section-bg-color:             #F4F1DE;
+  --section-bg-color:             #282618;
+/*  --section-bg-color:             #F4F1DE;*/
   --custom-btn-bg-color:          #F557AB;  /*#F557AB #F2CC8F*/
   --custom-btn-bg-hover-color:    #F557AB;  /*#E07A5F #F557AB*/
-  --dark-color:                   #000000;
+  --dark-color:                   #ffffff;
+/*  --dark-color:                   #000000;*/
   --p-color:                      #717275;
   --link-hover-color:             #F557AB ; /*#F557AB #F2CC8F*/
 
@@ -364,7 +367,8 @@ strong {
   background: var(--custom-btn-bg-color);
   border: 2px solid transparent;
   border-radius: var(--border-radius-large);
-  color: var(--white-color);
+  color: var(--dark-color);
+/*  color: var(--white-color);*/
   font-size: var(--btn-font-size);
   font-weight: var(--font-weight-bold);
   line-height: normal;
@@ -374,7 +378,8 @@ strong {
 
 .custom-btn:hover {
   background: var(--custom-btn-bg-hover-color);
-  color: var(--white-color);
+  color: var(--dark-color);
+/*  color: var(--white-color);*/
 }
 
 .custom-border-btn {
@@ -460,7 +465,8 @@ strong {
 
 .navbar .navbar-brand,
 .navbar .navbar-brand:hover {
-  color: var(--white-color);
+  color: var(--dark-color);
+/*  color: var(--white-color);*/
 }
 
 .navbar .navbar-brand-image {
@@ -494,7 +500,8 @@ strong {
 
 .navbar-nav .nav-link {
   display: inline-block;
-  color: var(--white-color);
+  color: var(--dark-color);
+/*  color: var(--white-color);*/
   font-size: var(--menu-font-size);
   font-weight: var(--font-weight-medium);
   padding-top: 15px;
@@ -1020,7 +1027,8 @@ strong {
 
 .contact-info-body strong,
 .contact-info-item a {
-  color: var(--white-color);
+  color: var(--dark-color);
+/*  color: var(--white-color);*/
 }
 
 .contact-info-footer {
@@ -1082,11 +1090,14 @@ strong {
   padding: 10px;
   padding-left: 20px;
   outline: none;
+  border-color: var(--p-color);
 }
 
 .custom-form .form-control:focus,
 .custom-form .form-control:hover {
-  border-color: var(--dark-color);
+/*  border-color: var(--dark-color);*/
+  border-color: var(--p-color);
+
 }
 
 .form-floating>label {
@@ -1097,7 +1108,8 @@ strong {
   background: var(--custom-btn-bg-color);
   border: none;
   border-radius: var(--border-radius-large);
-  color: var(--white-color);
+  color: var(--dark-color);
+/*  color: var(--white-color);*/
   font-size: var(--p-font-size);
   font-weight: var(--font-weight-medium);
   transition: all 0.3s;
@@ -1145,7 +1157,8 @@ strong {
 .social-icon-link {
   background: var(--secondary-color);
   border-radius: var(--border-radius-large);
-  color: var(--white-color);
+  color: var(--dark-color);
+/*  color: var(--white-color);*/
   font-size: var(--btn-font-size);
   display: block;
   margin-right: 5px;
@@ -1164,7 +1177,8 @@ strong {
 .social-icon-link-member-zone {
   background: var(--secondary-color);
   border-radius: var(--border-radius-large);
-  color: var(--white-color);
+  color: var(--dark-color);
+/*  color: var(--white-color);*/
   font-size: var(--btn-font-size-member-zone);
   display: inline;
   margin-right: 5px;
@@ -1177,7 +1191,8 @@ strong {
 
 .social-icon-link-member-zone:hover {
   background: var(--primary-color);
-  color: var(--white-color);
+  color: var(--dark-color);
+/*  color: var(--white-color);*/
 }
 
 
@@ -1307,4 +1322,5 @@ strong {
     padding: 4px 12px;
   }
 }
+
 
